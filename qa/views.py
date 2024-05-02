@@ -4,7 +4,7 @@ from rest_framework.parsers import JSONParser
 from transformers import AutoTokenizer, AutoModelForQuestionAnswering
 import torch
 
-class QuestionAnswering(APIView):
+class QuestionAnsweringView(APIView):
     parser_classes = (JSONParser,)
 
     def post(self, request, *args, **kwargs):
