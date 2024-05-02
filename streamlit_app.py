@@ -2,7 +2,7 @@
 import requests
 
 def main():
-    st.title("Question Answering System")
+    st.title("VIT'IA 2.0")
     
     # Utilisateur peut entrer un contexte manuellement ou charger un fichier
     context = st.text_area("Enter the text context here (optional if you upload a file):", height=200)
